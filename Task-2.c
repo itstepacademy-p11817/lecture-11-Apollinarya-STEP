@@ -4,7 +4,7 @@
 int main()
 {
 	int a = 1;
-	while (a = 1)
+	while (a == 1)
 	{
 		int x;
 		int y;
@@ -22,14 +22,11 @@ int main()
 		{
 			x1 = 1;
 		}
-		else
+		for (int i = 1; i < y; i++)
 		{
-			for (int i = 1; i < y; i++)
-			{
-				x1 = x1*x;
-			}
-			printf("%d\n\n", x1);
+			x1 = x1*x;
 		}
+		printf("%d\n\n", x1);
 	}
 	
 	getchar(); getchar();
